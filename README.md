@@ -2,6 +2,8 @@ This project was created by Aaron McCarthy, as a challenge for Swanest
 
 It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Click here to view the demo >](https://www.rulegram.com/csvuploader/)
+
 ## Table of Contents
 
 - [Overview](#overview)
