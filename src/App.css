@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* The "background" (dark grey) */
+.body {
+	background-color: rgb(178,178,178);
+}
+
+
+/* The navigation menu */
+.navi {
+	background-color: rgb(7,76,103);
+	color: #FFFFFF;
+	font-family: 'PTSans';
+	font-size: 28px;
+	position: fixed;
+	width: 100%;
+}
+
+/* Inner container for the navi */
+.naviInner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: 'row';
+	align-items: center;
+	padding: 10px;
+}
+
+/* Left-hand side of navigation menu */
+.naviLeft {
+	order: 1;
+	flex-grow: 50;
+}
+
+/* Centre of the navigation menu */
+.naviCentre {
+	order: 1;
+	flex-grow: 20;
+}
+
+/* Right-hand side of navigation menu */
+.naviRight {
+	text-align: right;
+	order: 1;
+	flex-grow: 30;
+}
+
+/* Right-hand side of navigation menu inner */
+.naviRightInner {
+	padding-right: 25px;
+}
+
+
+/* Inline icon */
+.inlineBlockIcon {
+	display: inline-block;
+	margin-right: 50px;
+	text-align: center;
+}
+
+/* The icon itself */
+.inlineBlockIcon i {
+	cursor: pointer;
+}
+
+
+/* Page holder */
+.pageHolder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: 'row';
+	align-items: top;
+}
+
+/* Sidebar */
+.sidebarHolder {
+	order: 1;
+	flex-grow: 10;
+	background-color: rgb(242, 242, 242);
+	border-right: rgb(173, 186, 207);
+	border-right-width: 2px;
+	border-right-style: solid;
+	padding: 25px;
+}
+
+
+/* Main page */
+.page {
+	order: 1;
+	flex-grow: 85;
+	background-color: rgb(255,255,255);
+	padding: 25px;
+	border-left: rgb(173, 186, 207);
+	border-left-width: 2px;
+}
+
+/* Tooltip (displays the label of an icon) */
+.tooltip {
+	background-color: rgba(15,15,15,0.5);
+	color: rgb(242, 242, 242);
+	font-family: 'PTSans', Verdana, Arial, sans-serif;
+	font-size: 12px;
+	padding: 5px;
+	position: absolute;
+}
+
+
+/* CSV row holder */
+	.rowHolder {
+		font-family: 'PTSans', Verdana, Arial, sans-serif;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: 'row';
+		align-items: center;
+	}
+
+/* Table row */
+	.tableRow {
+		font-family: 'PTSans', Verdana, Arial, sans-serif;
+		font-size: 16px;
+	}
+
+/* Background for the progress bar */
+	.progressHolder {
+		width: 300px;
+		background-color: rgb(15,15,15);
+		display: inline-block;
+	}
+
+/* The coloured part of the progress bar (how far has the process progressed?) */
+	.progressBar {
+		background-color: rgb(55, 109, 68);
+		height: 10px;
+	}
+
+/* Table column */
+	.tableColumn {
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(212,212,212);
+		padding: 5px;
+	}
+
+/* CSV column holder */
+	.columnHolder {
+		order: 1;
+		text-align: left;
+		overflow: hidden;
+		font-size: 16px;
+		text-align: 'left';
+		white-space: nowrap;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgb(212,212,212);
+		padding: 5px;
+	}
+
+/* Upload button */
+	.uploadButton {
+		font-size: 28px;
+		font-family: 'PTSans', Verdana, Arial, sans-serif;
+		border-radius: 5px;
+		padding: 15px;
+		display: inline-block;
+		background-color: rgb(7,76,103);
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+
+/* The holder of the upload button */
+	.uploadHolder {
+		text-align: center;
+	}
