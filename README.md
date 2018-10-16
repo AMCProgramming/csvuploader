@@ -4,6 +4,8 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 
 [Click here to view the demo >](https://www.rulegram.com/csvuploader/)
 
+[Click here to view the repo files >](https://github.com/AMCProgramming/csvuploader)
+
 ## Table of Contents
 
 - [Overview](#overview)
